@@ -7,18 +7,20 @@ For now, you have to start all four JavaScript files in their own node process.
 
 How-to
 ------
-The node package ~~http-sync-win~~ is needed, which is automatically installed by running
-~~npm install~~
-For running this on *nix, please use the package ~~http-sync~~ instead.
+The node package `http-sync-win` is needed, which is automatically installed by running
+`npm install`.
+For running this on *nix, please use the package `http-sync` instead.
 
 For now, you have to start all four JavaScript files in their own node process:
-~~node registry~~
-~~node webapp~~
-~~node webconnector~~
-~~node client~~
+```
+node registry
+node webapp
+node webconnector
+node client
+```
 
 You can then reach the client in your favorite browser:
-~~http://localhost:3003/~~
+`http://localhost:3003/`
 
 
 License
