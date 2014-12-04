@@ -27,7 +27,7 @@ var http = require('http');
 
 // the list of providers
 var providersList = [
-    {name:"Layers", logo:"http://learning-layers.eu/wp-content/themes/learninglayers/images/logo.png", endpoint:"http://api.learning-layers.eu/o/oauth2/authorize?response_type=code&client_id=0734bbed-2aa2-43ce-812e-200ae2ce2da7&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Fredirect&scope=openid+email+profile&state=bla&nonce=blubb"},
+    {name:"Layers", logo:"http://learning-layers.eu/wp-content/themes/learninglayers/images/logo.png", endpoint:"https://api.learning-layers.eu/o/oauth2/authorize?response_type=code&client_id=0734bbed-2aa2-43ce-812e-200ae2ce2da7&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Fredirect&scope=openid+email+profile&state=bla&nonce=blubb"},
     {name:"Google", logo:"https://www.google.de/images/srpr/logo8w.png", endpoint:"https://plus.google.com/o/oauth2/authorize"}
 ];
 

@@ -52,9 +52,9 @@ function getTokens(code) {
         headers: {'Content-Type':'application/x-www-form-urlencoded', "Authorization":"Basic " + authentication},
         body: "grant_type=authorization_code&code=" + code + "&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Fredirect",
 
-        protocol: 'http',
+        protocol: 'https',
         host: 'api.learning-layers.eu',
-        port: 80,
+        port: 443,
         path: '/o/oauth2/token'
     });
 

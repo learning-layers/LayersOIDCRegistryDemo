@@ -32,9 +32,9 @@ function getUserinfo(access_token) {
         method: 'GET',
         headers: {"Authorization": "Bearer " + access_token, "Accept": "application/json"},
 
-        protocol: 'http',
+        protocol: 'https',
         host: 'api.learning-layers.eu',
-        port: 80,
+        port: 443,
         path: '/o/oauth2/userinfo'
     });
     var result = request.end();
